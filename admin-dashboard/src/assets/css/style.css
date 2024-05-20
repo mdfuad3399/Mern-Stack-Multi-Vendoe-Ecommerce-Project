@@ -12,3 +12,37 @@ a{
 ul li{
     list-style: none;
 }
+
+.login_style{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.go{
+    display: flex;
+    justify-content: space-between;
+}
+.bg_body{
+    background-color: #e6e6e6;
+}
+
+.go_btn{
+    cursor: pointer;
+    width: 45%;
+    color: white;
+    text-align: center;
+    background-color: #C64302;
+    border-radius: 5px;
+    padding: 10px;
+}
+.fb_btn{
+    cursor: pointer;
+    width: 45%;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #0E48D5;
+}

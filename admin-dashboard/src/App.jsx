@@ -1,14 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import Layouts from "./Layouts/Layouts";
+import Router from "./Routes/Router";
+import PublicRoute from "./Routes/Routers/PublicRoute";
+
 
 const App = () => {
-  return (
-    <Layouts>
-      <div>
-        <h1>Hello World</h1>
-      </div>
-    </Layouts>
-  );
+     const [allRoutes , setAllRoutes] = useState([...PublicRoute])
+     return <Router allRoutes={allRoutes} />
 };
 
 export default App;
